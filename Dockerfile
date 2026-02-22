@@ -29,5 +29,6 @@ COPY --from=builder --chown=nextjs:nodejs /app/package.json ./
 USER nextjs
 EXPOSE 3000
 ENV PORT=3000
-
+ENV CONVERTKIT_API_KEY=DXaW-yhqbVNxVGJ3iuZq3g
+ENV CONVERTKIT_FORM_ID=9118358
 CMD ["node", "server.js"]
