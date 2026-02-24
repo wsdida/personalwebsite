@@ -1,0 +1,20 @@
+---
+title: DevLog 02: Optimizing AI Response Logic and Going Live on Production
+date: 2026-02-24
+tags: ['venture']
+draft: false
+---
+
+
+# The Context:
+As the product evolves, the original layout for the generation page felt cluttered. Moreover, the AI’s JSON responses were occasionally inconsistent, causing frontend crashes.
+# The Challenge:
+Redesigning the workflow without breaking the existing core logic while ensuring the production environment is secure and scalable.
+# The Solution:
+Layout Refactor: Implemented a more intuitive flow with better visual feedback during the "loading" states.
+Data Mapping: Added a robust validation layer between the AI API and the UI to handle non-structured data gracefully.
+Server Config: Configured the production environment with proper SSL, firewall rules, and automated deployment scripts.
+# Results:
+The app is significantly more stable, and the generation quality has improved by roughly 30% thanks to refined prompt engineering.
+# What’s Next:
+Preparing for a closed beta to gather initial user feedback.
